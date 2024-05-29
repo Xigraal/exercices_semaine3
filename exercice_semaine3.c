@@ -30,7 +30,7 @@ double rotation_de_valeurs(double* nombre_a, double* nombre_b, double* nombre_c)
 *Nom de l'exercice: Exercices_semaines1.c
 * main()
 * Description:programme qui test les differents exercices de la semaine 2
-* Paramètres: aucun
+* ParamÃ¨tres: aucun
 * Retour : status de la fin du programme
 */
 int main() {
@@ -73,15 +73,15 @@ int main() {
 			printf("%c\n", lettre);
 			break;
 		case 4:
-			printf("\nCe programe  permet d’obtenir la valeur d’un point x de type double sur une courbe => \n\n");
+			printf("\nCe programe  permet de faire la rotation de trois nombres => \n\n");
 			rotation_de_valeurs(&nb_a,&nb_b, &nb_c);
 			printf("\t%.2lf\t%.2lf\t%.2lf\n", nb_a, nb_b, nb_c);
 			break;
 		case 5:
-			printf("La vie d'un futur  ingenieur est comme un code à deboguer:");
+			printf("La vie d'un futur  ingenieur est comme un code Ã  deboguer:");
 			printf("chaque probleme est une enigme a resoudre, et chaque \n");
 			printf("solution nous rapproche un peu plus de la perfection.\n");
-			printf("Ainsi, chaque défi est une opportunité de croissance,\n");
+			printf("Ainsi, chaque dÃ©fi est une opportunitÃ© de croissance,\n");
 			printf("et chaque obstacle surmonte est une preuve\n");
 			printf("de sa determination et de son ingeniosite.");
 			break;
@@ -89,7 +89,7 @@ int main() {
 			printf("Fin du programme.\n");
 			break;
 		default:
-			printf("Choix invalide. Veuillez réessayer.\n");
+			printf("Choix invalide. Veuillez rÃ©essayer.\n");
 		}
 
 	} while (choix != 6);
